@@ -2,11 +2,11 @@
 #include <vector>
 using namespace std;
 
-bool isti(int pr[], int duz) {
-    int prosla = pr[0];
-    
-    for(int i = 0; i < duz; i++) {
-        if(pr[i] != prosla)
+bool isti(int lista[], int velicina) {
+    int prosli = lista[0];
+
+    for(int i = 0; i < velicina; i++) {
+        if(lista[i] != prosli)
             return false;
     }
 
@@ -14,39 +14,39 @@ bool isti(int pr[], int duz) {
 }
 
 int main() {
-    int n;
-    cin >> n;
+    int brD;
+    cin >> brD;
 
-    vector<vector<int>> matrica(n, vector<int>(n));
-    int rez[n];
-    
-    for(int i = 0; i < n; i++) {
-        for(int a = 0; a < n; a++) {
-            cin >> matrica[i][a];
+    int rezultat[brD];
+    vector<vector<int>> kocka(brD, vector<int>(brD));
+
+    for(int i = 0; i < brD; i++) {
+        for(int a = 0; a < brD; a++) {
+            cin >> kocka[i][a];
         }
     }
 
     int red, kolona = 0;
 
-    for(int i = 0; i < n; i++) {
-        int rezD = 0;
+    for(int i = 0; i < brD; i++) {
+        int rezultatDijagonale = 0;
 
-        for(int a = 0; a < n; a++) { 
-            rezD += matrica[red][(a + kolona) % n];
+        for(int a = 0; a < brD; a++) {
+            rezultatDijagonale += kocka[red][(kolona + a) % brD];
             red++;
         }
 
         red = 0;
         kolona++;
 
-        cout << rezD << endl;
-        rez[i] = rezD;
+        cout << rezultatDijagonale << endl;
+        rezultat[i] = rezultatDijagonale;
     }
 
-    if(isti(rez, n))
+    if(isti(rezultat, brD))
         cout << "da" << endl;
     else
         cout << "ne" << endl;
-    
+        
     return 0;
 }
