@@ -5,6 +5,17 @@ All code from informatic competition that I wrote. This repo is classified as co
 | :----------------: | :------:| :----:| :----: |
 | DMS        |   23/24   | 6th | Uglješa Lukešević |
 
+## Municipal competition (./op_qr/)
+
+| Assignment name    | File |
+| :--------: | :-------: |
+| Dani u nedelji  | dani.cpp    |
+| Toplotni pojas | pojas.cpp     |
+| Dostavljač    | dostavljac.cpp    |
+| Minimaks    | Minimaks.cpp    |
+
+**Won total 340/400 points. Declared first place.**
+
 ## Secound qualifying round (./2th_qr/)
 
 | Assignment name    | File |
@@ -30,14 +41,3 @@ All code from informatic competition that I wrote. This repo is classified as co
 | Mica štucalica   | mica.cpp    |
 
 **Won total 460/600 points.**
-
-## Municipal competition (./op_qr/)
-
-| Assignment name    | File |
-| :--------: | :-------: |
-| Dani u nedelji  | dani.cpp    |
-| Toplotni pojas | pojas.cpp     |
-| Dostavljač    | dostavljac.cpp    |
-| Minimaks    | Minimaks.cpp    |
-
-**Won total 340/400 points. Declared first place (but not awarded).**
