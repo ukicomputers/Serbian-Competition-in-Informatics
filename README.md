@@ -5,7 +5,7 @@ All code from informatic competition that I wrote. This repo is classified as co
 | :----------------: | :------:| :----:| :----: |
 | DMS        |   23/24   | 6th | Uglješa Lukešević |
 
-## Disrict competition (./op_qr/)
+## Disrict competition (./ok_qr/)
 
 | Assignment name    | File |
 | :--------: | :-------: |
