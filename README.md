@@ -5,6 +5,20 @@ All code from informatic competition that I wrote. This repo is classified as co
 | :----------------: | :------:| :----:| :----: |
 | DMS        |   23/24   | 6th | Uglješa Lukešević |
 
+[Link to site for results and announcements](https://takprog.petlja.org/osnovnaskola)
+
+## Republic competition (./dr_qr/)
+
+| Assignment name    | File |
+| :--------: | :-------: |
+| Motivacija  | motivacija.cpp    |
+| Harshad brojevi | harshad.cpp     |
+| Đavolski kvadrat   | djavolski.cpp    |
+| Patikarnica    | patikarnica.cpp    |
+
+**Won total 355/400 points. Declared first place.**<br>
+I was one of non-ordinary firsts on competition.
+
 ## Disrict competition (./ok_qr/)
 
 | Assignment name    | File |
