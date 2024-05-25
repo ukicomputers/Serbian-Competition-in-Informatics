@@ -2,12 +2,10 @@ import os
 home_dir = os.path.expanduser("~")
 
 first_line = input()
-lines = []
-for _ in range(int(first_line[0])):
-    lines.append(input())
+string = ""
+for _ in range(int(first_line) + 2):
+    string += input() + " "
 
-file_path = os.path.join(home_dir, "in_xxxx.txt")
+file_path = os.path.join(home_dir, "in_glasanje.txt")
 with open(file_path, "a") as file:
-    file.write(first_line + "\n")
-    for line in lines:
-        file.write(line + "\n")
+    file.write(string + "\n")
