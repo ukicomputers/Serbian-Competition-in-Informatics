@@ -5,8 +5,6 @@ All code from informatic competition that I wrote. This repo is classified as co
 | :----------------: | :------:| :----:| :----: |
 | DMS        |   23/24   | 6th | Uglješa Lukešević |
 
-[Link to site for results and announcements](https://takprog.petlja.org/osnovnaskola)
-
 ## Republic competition (./dr_qr/)
 
 | Assignment name    | File |
